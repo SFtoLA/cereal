@@ -1143,6 +1143,7 @@ struct Joystick {
   buttons @1: List(Bool);
   desire @2: DesireStatus;
   commit @3: Bool;
+  cruiseOffset @4: Float32; # MPH. offset add onto vCruise
   enum DesireStatus {
     laneFollow @0;
     leftLaneChange @1;
